@@ -1,0 +1,1538 @@
+[
+    {
+        "name": "BRK",
+        "operate": "BRK",
+        "addrmode": "IMM",
+        "cycles": 7
+    },
+    {
+        "name": "ORA",
+        "operate": "ORA",
+        "addrmode": "IZX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 3
+    },
+    {
+        "name": "ORA",
+        "operate": "ORA",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "ASL",
+        "operate": "ASL",
+        "addrmode": "ZP0",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "PHP",
+        "operate": "PHP",
+        "addrmode": "IMP",
+        "cycles": 3
+    },
+    {
+        "name": "ORA",
+        "operate": "ORA",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "ASL",
+        "operate": "ASL",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "ORA",
+        "operate": "ORA",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "ASL",
+        "operate": "ASL",
+        "addrmode": "ABS",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "BPL",
+        "operate": "BPL",
+        "addrmode": "REL",
+        "cycles": 2
+    },
+    {
+        "name": "ORA",
+        "operate": "ORA",
+        "addrmode": "IZY",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "ORA",
+        "operate": "ORA",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "ASL",
+        "operate": "ASL",
+        "addrmode": "ZPX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "CLC",
+        "operate": "CLC",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "ORA",
+        "operate": "ORA",
+        "addrmode": "ABY",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "ORA",
+        "operate": "ORA",
+        "addrmode": "ABX",
+        "cycles": 4
+    },
+    {
+        "name": "ASL",
+        "operate": "ASL",
+        "addrmode": "ABX",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "JSR",
+        "operate": "JSR",
+        "addrmode": "ABS",
+        "cycles": 6
+    },
+    {
+        "name": "AND",
+        "operate": "AND",
+        "addrmode": "IZX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "BIT",
+        "operate": "BIT",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "AND",
+        "operate": "AND",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "ROL",
+        "operate": "ROL",
+        "addrmode": "ZP0",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "PLP",
+        "operate": "PLP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "AND",
+        "operate": "AND",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "ROL",
+        "operate": "ROL",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "BIT",
+        "operate": "BIT",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "AND",
+        "operate": "AND",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "ROL",
+        "operate": "ROL",
+        "addrmode": "ABS",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "BMI",
+        "operate": "BMI",
+        "addrmode": "REL",
+        "cycles": 2
+    },
+    {
+        "name": "AND",
+        "operate": "AND",
+        "addrmode": "IZY",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "AND",
+        "operate": "AND",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "ROL",
+        "operate": "ROL",
+        "addrmode": "ZPX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "SEC",
+        "operate": "SEC",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "AND",
+        "operate": "AND",
+        "addrmode": "ABY",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "AND",
+        "operate": "AND",
+        "addrmode": "ABX",
+        "cycles": 4
+    },
+    {
+        "name": "ROL",
+        "operate": "ROL",
+        "addrmode": "ABX",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "RTI",
+        "operate": "RTI",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "EOR",
+        "operate": "EOR",
+        "addrmode": "IZX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 3
+    },
+    {
+        "name": "EOR",
+        "operate": "EOR",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "LSR",
+        "operate": "LSR",
+        "addrmode": "ZP0",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "PHA",
+        "operate": "PHA",
+        "addrmode": "IMP",
+        "cycles": 3
+    },
+    {
+        "name": "EOR",
+        "operate": "EOR",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "LSR",
+        "operate": "LSR",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "JMP",
+        "operate": "JMP",
+        "addrmode": "ABS",
+        "cycles": 3
+    },
+    {
+        "name": "EOR",
+        "operate": "EOR",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "LSR",
+        "operate": "LSR",
+        "addrmode": "ABS",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "BVC",
+        "operate": "BVC",
+        "addrmode": "REL",
+        "cycles": 2
+    },
+    {
+        "name": "EOR",
+        "operate": "EOR",
+        "addrmode": "IZY",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "EOR",
+        "operate": "EOR",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "LSR",
+        "operate": "LSR",
+        "addrmode": "ZPX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "CLI",
+        "operate": "CLI",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "EOR",
+        "operate": "EOR",
+        "addrmode": "ABY",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "EOR",
+        "operate": "EOR",
+        "addrmode": "ABX",
+        "cycles": 4
+    },
+    {
+        "name": "LSR",
+        "operate": "LSR",
+        "addrmode": "ABX",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "RTS",
+        "operate": "RTS",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "ADC",
+        "operate": "ADC",
+        "addrmode": "IZX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 3
+    },
+    {
+        "name": "ADC",
+        "operate": "ADC",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "ROR",
+        "operate": "ROR",
+        "addrmode": "ZP0",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "PLA",
+        "operate": "PLA",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "ADC",
+        "operate": "ADC",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "ROR",
+        "operate": "ROR",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "JMP",
+        "operate": "JMP",
+        "addrmode": "IND",
+        "cycles": 5
+    },
+    {
+        "name": "ADC",
+        "operate": "ADC",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "ROR",
+        "operate": "ROR",
+        "addrmode": "ABS",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "BVS",
+        "operate": "BVS",
+        "addrmode": "REL",
+        "cycles": 2
+    },
+    {
+        "name": "ADC",
+        "operate": "ADC",
+        "addrmode": "IZY",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "ADC",
+        "operate": "ADC",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "ROR",
+        "operate": "ROR",
+        "addrmode": "ZPX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "SEI",
+        "operate": "SEI",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "ADC",
+        "operate": "ADC",
+        "addrmode": "ABY",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "ADC",
+        "operate": "ADC",
+        "addrmode": "ABX",
+        "cycles": 4
+    },
+    {
+        "name": "ROR",
+        "operate": "ROR",
+        "addrmode": "ABX",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "STA",
+        "operate": "STA",
+        "addrmode": "IZX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "STY",
+        "operate": "STY",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "STA",
+        "operate": "STA",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "STX",
+        "operate": "STX",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 3
+    },
+    {
+        "name": "DEY",
+        "operate": "DEY",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "TXA",
+        "operate": "TXA",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "STY",
+        "operate": "STY",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "STA",
+        "operate": "STA",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "STX",
+        "operate": "STX",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "BCC",
+        "operate": "BCC",
+        "addrmode": "REL",
+        "cycles": 2
+    },
+    {
+        "name": "STA",
+        "operate": "STA",
+        "addrmode": "IZY",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "STY",
+        "operate": "STY",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "STA",
+        "operate": "STA",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "STX",
+        "operate": "STX",
+        "addrmode": "ZPY",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "TYA",
+        "operate": "TYA",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "STA",
+        "operate": "STA",
+        "addrmode": "ABY",
+        "cycles": 5
+    },
+    {
+        "name": "TXS",
+        "operate": "TXS",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "STA",
+        "operate": "STA",
+        "addrmode": "ABX",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "LDY",
+        "operate": "LDY",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "LDA",
+        "operate": "LDA",
+        "addrmode": "IZX",
+        "cycles": 6
+    },
+    {
+        "name": "LDX",
+        "operate": "LDX",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "LDY",
+        "operate": "LDY",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "LDA",
+        "operate": "LDA",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "LDX",
+        "operate": "LDX",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 3
+    },
+    {
+        "name": "TAY",
+        "operate": "TAY",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "LDA",
+        "operate": "LDA",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "TAX",
+        "operate": "TAX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "LDY",
+        "operate": "LDY",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "LDA",
+        "operate": "LDA",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "LDX",
+        "operate": "LDX",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "BCS",
+        "operate": "BCS",
+        "addrmode": "REL",
+        "cycles": 2
+    },
+    {
+        "name": "LDA",
+        "operate": "LDA",
+        "addrmode": "IZY",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "LDY",
+        "operate": "LDY",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "LDA",
+        "operate": "LDA",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "LDX",
+        "operate": "LDX",
+        "addrmode": "ZPY",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "CLV",
+        "operate": "CLV",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "LDA",
+        "operate": "LDA",
+        "addrmode": "ABY",
+        "cycles": 4
+    },
+    {
+        "name": "TSX",
+        "operate": "TSX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "LDY",
+        "operate": "LDY",
+        "addrmode": "ABX",
+        "cycles": 4
+    },
+    {
+        "name": "LDA",
+        "operate": "LDA",
+        "addrmode": "ABX",
+        "cycles": 4
+    },
+    {
+        "name": "LDX",
+        "operate": "LDX",
+        "addrmode": "ABY",
+        "cycles": 4
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "CPY",
+        "operate": "CPY",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "CMP",
+        "operate": "CMP",
+        "addrmode": "IZX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "CPY",
+        "operate": "CPY",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "CMP",
+        "operate": "CMP",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "DEC",
+        "operate": "DEC",
+        "addrmode": "ZP0",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "INY",
+        "operate": "INY",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "CMP",
+        "operate": "CMP",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "DEX",
+        "operate": "DEX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "CPY",
+        "operate": "CPY",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "CMP",
+        "operate": "CMP",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "DEC",
+        "operate": "DEC",
+        "addrmode": "ABS",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "BNE",
+        "operate": "BNE",
+        "addrmode": "REL",
+        "cycles": 2
+    },
+    {
+        "name": "CMP",
+        "operate": "CMP",
+        "addrmode": "IZY",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "CMP",
+        "operate": "CMP",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "DEC",
+        "operate": "DEC",
+        "addrmode": "ZPX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "CLD",
+        "operate": "CLD",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "CMP",
+        "operate": "CMP",
+        "addrmode": "ABY",
+        "cycles": 4
+    },
+    {
+        "name": "NOP",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "CMP",
+        "operate": "CMP",
+        "addrmode": "ABX",
+        "cycles": 4
+    },
+    {
+        "name": "DEC",
+        "operate": "DEC",
+        "addrmode": "ABX",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "CPX",
+        "operate": "CPX",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "SBC",
+        "operate": "SBC",
+        "addrmode": "IZX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "CPX",
+        "operate": "CPX",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "SBC",
+        "operate": "SBC",
+        "addrmode": "ZP0",
+        "cycles": 3
+    },
+    {
+        "name": "INC",
+        "operate": "INC",
+        "addrmode": "ZP0",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 5
+    },
+    {
+        "name": "INX",
+        "operate": "INX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "SBC",
+        "operate": "SBC",
+        "addrmode": "IMM",
+        "cycles": 2
+    },
+    {
+        "name": "NOP",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "SBC",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "CPX",
+        "operate": "CPX",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "SBC",
+        "operate": "SBC",
+        "addrmode": "ABS",
+        "cycles": 4
+    },
+    {
+        "name": "INC",
+        "operate": "INC",
+        "addrmode": "ABS",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "BEQ",
+        "operate": "BEQ",
+        "addrmode": "REL",
+        "cycles": 2
+    },
+    {
+        "name": "SBC",
+        "operate": "SBC",
+        "addrmode": "IZY",
+        "cycles": 5
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 8
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "SBC",
+        "operate": "SBC",
+        "addrmode": "ZPX",
+        "cycles": 4
+    },
+    {
+        "name": "INC",
+        "operate": "INC",
+        "addrmode": "ZPX",
+        "cycles": 6
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 6
+    },
+    {
+        "name": "SED",
+        "operate": "SED",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "SBC",
+        "operate": "SBC",
+        "addrmode": "ABY",
+        "cycles": 4
+    },
+    {
+        "name": "NOP",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 2
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "NOP",
+        "addrmode": "IMP",
+        "cycles": 4
+    },
+    {
+        "name": "SBC",
+        "operate": "SBC",
+        "addrmode": "ABX",
+        "cycles": 4
+    },
+    {
+        "name": "INC",
+        "operate": "INC",
+        "addrmode": "ABX",
+        "cycles": 7
+    },
+    {
+        "name": "???",
+        "operate": "XXX",
+        "addrmode": "IMP",
+        "cycles": 7
+    }
+]
